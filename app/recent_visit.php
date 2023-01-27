@@ -86,7 +86,7 @@ if ($_SESSION['login'] == "yes") {
 
             <a href="food_spot.php?fix=no"><i class="fa fa-map-marker-alt"></i><span>Food Spots</span></a>
 
-            <a href="#"><i class="fa fa-map"></i><span>Nearby</span></a>
+            <a href="#" onclick="nearby()"><i class="fa fa-map"></i><span>Nearby</span></a>
 
             <a href="notif.php"><i class="fa fa-bell"></i><span>notification</span>
 
@@ -111,6 +111,11 @@ if ($_SESSION['login'] == "yes") {
         </div>
 
 
+        <script type="text/javascript">
+            function nearby() {
+                window.location = "nearby/nearby.php";
+            }
+        </script>
 
         <div class="page-content">
 
