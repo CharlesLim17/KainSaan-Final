@@ -654,7 +654,7 @@ if ($result->num_rows > 0) {
         </div>
 
         
-        <div class="divider divider-margins mt-4"></div>
+        <!-- <div class="divider divider-margins mt-4"></div>
 
         
         <div class="card mt-4 preload-img" data-src="images/pictures/20s.jpg">
@@ -670,7 +670,7 @@ if ($result->num_rows > 0) {
 
                        <?php
 include "database.php";
-$sql = "SELECT * FROM food  where status = '1' order by price ASC limit 2";
+$sql = "SELECT * FROM food  where status = '0' order by price ASC limit 2";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -712,7 +712,7 @@ $conn->close();
             <div class="card-overlay dark-mode-tint"></div>
         </div>
         
-        <div class="divider divider-margins"></div>
+        <div class="divider divider-margins"></div> -->
         
         <div class="content mb-3">
             <h5 class="float-left font-16 font-500">Browse Our Categories</h5>

@@ -810,10 +810,11 @@ else
                         <em><i class="fa fa-angle-down"></i></em>
                         <select class="form-control" name="category"  >
                             <option disabled selected  >Select Category</option>
+                            <option value="Cafe">Cafe</option>
+                            <option value="Eatery">Eatery</option>
                             <option value="Fast Food">Fast Food</option>
                             <option value="Family Style Restaurant">Family Style Restaurant</option>
                             <option value="Food Park">Food Park</option>
-                            <option value="Cafe">Cafe</option>
                         </select>
                     </div>
 
@@ -826,6 +827,7 @@ else
                             <option value="Chinese">Chinese</option>
                             <option value="Italian">Italian</option>
                             <option value="Korean">Korean</option>
+                            <option value="Western">Western</option>
                             <option value="Japanese">Japanese</option>
                         </select>
                     </div>

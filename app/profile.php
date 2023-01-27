@@ -851,6 +851,7 @@ $("#upd").click();
                         <option value="Chinese">Chinese</option>
                         <option value="Italian">Italian</option>
                         <option value="Korean">Korean</option>
+                        <option value="Western">Western</option>
                         <option value="Japanese">Japanese</option>
                     </select>
             </div>
