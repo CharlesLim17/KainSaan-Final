@@ -803,7 +803,7 @@ $("#upd").click();
                 <i class="input-icon fa fa-info-circle color-blue2-dark"></i>
                 <span>Average Price</span>
                 <em>(required)</em>
-                <input type="name" name="average_price" required placeholder="Average Price">
+                <input type="number" name="average_price" required placeholder="Average Price">
             </div>
 
 
@@ -832,10 +832,11 @@ $("#upd").click();
                     <em><i class="fa fa-angle-down"></i></em>
                     <select class="form-control" required name="category"  >
                         <option disabled selected  >Select Category</option>
+                        <option value="Cafe">Cafe</option>
+                        <option value="Eatery">Eatery</option>
                         <option value="Fast Food">Fast Food</option>
                         <option value="Family Style Restaurant">Family Style Restaurant</option>
                         <option value="Food Park">Food Park</option>
-                        <option value="Cafe">Cafe</option>
                     </select>
             </div>
 
@@ -912,7 +913,7 @@ $("#request").click();
                 <i class="input-icon fa fa-info font-11"></i>
                 <span>Food Price</span>
                 <em>(required)</em>
-                <input type="name" name="food_price" placeholder="Food Price">
+                <input type="number" name="food_price" placeholder="Food Price">
             </div>   
             <div class="input-style input-style-2 input-required">
                     <span>Food Category</span>
