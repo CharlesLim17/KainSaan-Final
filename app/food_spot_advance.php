@@ -86,7 +86,7 @@ $("#saved-to-favorites").hide();
 </script>       
  
             <div class="content">
- <button data-menu="menu-signin" onclick="categ()" class="btn btn-3d btn-s btn-full mb-2 rounded-xs text-uppercase font-900 shadow-s  border-blue1-dark bg-blue1-dark"><i class="fa fa-plus"></i> Add Category</button>
+ <button data-menu="menu-signin" onclick="categ()" class="btn btn-3d btn-s btn-full mb-2 rounded-xs text-uppercase font-900 shadow-s  border-blue1-dark bg-blue1-dark"><i class="fa fa-plus"></i> Add Filter</button>
                <div class="search-box bg-theme rounded-m shadow-xl bottom-0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
                 <i class="fa fa-search"></i>
