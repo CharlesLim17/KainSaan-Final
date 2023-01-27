@@ -525,7 +525,7 @@ $star = $row['ratings'];
         <div class="divider divider-margins mt-4"></div>
         
         <div class="content mb-3">
-            <h5 class="float-left font-16 font-500">Based on Your Favorites</h5>
+            <h5 class="float-left font-16 font-500">Recommended for You!</h5>
                 <a class="float-right font-12 color-highlight mt-n1" href="#">View All</a>
             <div class="clearfix"></div>
         </div>
