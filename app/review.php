@@ -46,10 +46,17 @@ else
     <div id="footer-bar" class="footer-bar-1  ">
             <a href="index.php?fix=no" ><i class="fa fa-home"></i><span>Home</span></a>
             <a href="food_spot.php?fix=no" class="active-nav"><i class="fa fa-map-marker-alt"></i><span>Food Spots</span></a>
-            <a href="#" ><i class="fa fa-map"></i><span>Nearby</span></a>
+            <a href="#" onclick="nearby()"><i class="fa fa-map"></i><span>Nearby</span></a>
             <a href="notif.php"  ><i class="fa fa-bell"></i><span>notification</span> <div id="noti_number2"></div></a>
             <a href="#" data-menu="menu-main"><i class="fa fa-cog"></i><span>Settings</span></a>
             
+            <script type="text/javascript">
+    
+    function nearby(){
+         window.location="nearby/nearby.php";
+    }
+
+</script>
     </div>
     <script type="text/javascript">
  function loadDoc() {
